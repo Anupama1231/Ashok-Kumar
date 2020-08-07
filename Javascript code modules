@@ -1,0 +1,87 @@
+JavaScript code modules
+See MozillaJavaScript code modules
+
+▼
+Non-standard
+This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.
+
+Note: These are not the same thing as standard JavaScript modules. See export and import to learn more about how to use standard modules.
+
+JavaScript code modules let multiple privileged JavaScript scopes share code. For example, a module could be used by Firefox itself as well as by extensions, in order to avoid code duplication.
+
+General topics
+Using JavaScript code modules
+An introduction to how to use JavaScript code modules.
+Components.utils.import
+How to import a JavaScript code module.
+Components.utils.unload
+How to unload a JavaScript code module.
+Code snippets: Modules
+Examples of how to use code modules.
+Mozilla Labs JS Modules
+This page features a list of JavaScript modules, along with download links and documentation, that extension developers can use in their code.
+Standard code modules
+AddonManager.jsm
+An interface to install, manage, and uninstall add-ons.
+AddonRepository.jsm
+Provides a search of add-ons in the repository.
+Assert.jsm
+Implements the CommonJS Unit Testing specification version 1.1, which provides a basic standardized interface for performing in-code logical assertions with optional, customizable error reporting.
+BookmarkHTMLUtils.jsm
+Provides utility functions for importing and exporting bookmarks from the old-school "bookmarks.html" style bookmark files.
+ctypes.jsm
+Provides an interface that allows JavaScript code to call native libraries without requiring the development of an XPCOM component.
+CustomizableUI.jsm
+Allows you to interact with customizable buttons and items in Firefox's main window UI.
+DeferredTask.jsm
+Run a task after a delay.
+Dict.jsm
+Provides an API for key/value pair dictionaries.
+DownloadLastDir.jsm
+Supplies the path to the directory into which the last download occurred.
+Downloads.jsm
+Provides a single entry point to interact with the downloading capabilities of the platform.
+FileUtils.jsm
+Provides helpers for dealing with files.
+Geometry.jsm
+Provides routines for performing basic geometric operations on points and rectangles.
+HTTP.jsm
+A wrapper for XMLHttpRequest that provides convenient and simplified API for dealing with HTTP requests.
+JNI.jsm
+Abstracts the js-ctypes to provide an interface that allows JavaScript code to call code running in native JVMs.
+ISO8601DateUtils.jsm
+Provides routines to convert between JavaScript Date objects and ISO 8601 date strings.
+Log.jsm (formerly log4moz)
+Provides a log4j style API for logging, log messages to various endpoints, such as the Browser Console or a file on disk. 
+NetUtil.jsm
+Provides helpful networking utility functions, including the ability to easily copy data from an input stream to an output stream asynchronously.
+openLocationLastURL.jsm
+Provides access to the last URL opened using the "Open Location" option in the File menu.
+OSFile.jsm
+Allows routines to access files. To which can be read, write, rename, create directories,etc.
+PerfMeasurement.jsm
+Provides access to low-level hardware and OS performance measurement tools.
+PluralForm.jsm
+Supplies an easy way to get the correct plural forms for the current locale, as well as ways to localize to a specific plural rule.
+PopupNotifications.jsm
+Gives an easy way to present non-modal notifications to users.
+Promise.jsm
+Implements the Promises/A+ proposal as known in April 2013.
+PromiseWorker.jsm
+A version of ChromeWorker which uses Promises to return the worker's result instead of using an event to do so.
+Services.jsm
+Provides getters for conveniently obtaining access to commonly-used services.
+source-editor.jsm
+The Source Editor is used by developer tools such as, the Style Editor; this interface implements the editor and lets you interact with it.
+Sqlite.jsm
+A Promise-based API to mozIStorage/SQLite.
+Task.jsm
+Implements a subset of Task.js to make sequential, asynchronous operations simple, using the power of JavaScript's yield operator.
+Timer.jsm
+A pure JS implementation of window.setTimeout.
+Webapps.jsm
+Provides an interface to manage Open Web Apps.
+WebRequest.jsm
+Provides an API to add event listeners for the various stages of making an HTTP request. The event listener receives detailed information about the request, and can modify or cancel the request.
+XPCOMUtils.jsm
+Contains utilities for JavaScript components loaded by the JS component loader.
